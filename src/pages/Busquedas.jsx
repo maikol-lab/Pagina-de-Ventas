@@ -53,9 +53,7 @@ const Busquedas = () => {
                 <div className="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style={{ maxWidth: 800 }}>
                     <h4 className="text-primary"> Busqueda de  {datos.length} Productos</h4>
                     <h1 className="display-4 mb-4">{txtBuscar}</h1>
-
-
-
+                    
                     <div className="row justify-content-center animate__animated animate__fadeInLeftBig">
                         {datos.map((item) => (
                             <CardProductos key={item.id} item={item} />
@@ -63,8 +61,6 @@ const Busquedas = () => {
 
                     </div>
                 </div>
-
-
             </div>
         </div>
 
