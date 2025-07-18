@@ -1,0 +1,15 @@
+.app {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+.card {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.card:hover {
+    transform: scale(1.03);
+    transform: translateY(-5px);
+}
