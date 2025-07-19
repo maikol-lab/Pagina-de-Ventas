@@ -12,10 +12,10 @@ const Footer = () => {
                     </div>
                     <div className="col-lg-5">
                         <div className="d-flex align-items-center justify-content-center justify-content-lg-end">
-                            <a className="btn btn-primary btn-md-square me-3" href><i className="fab fa-facebook-f" /></a>
-                            <a className="btn btn-primary btn-md-square me-3" href><i className="fab fa-twitter" /></a>
-                            <a className="btn btn-primary btn-md-square me-3" href><i className="fab fa-instagram" /></a>
-                            <a className="btn btn-primary btn-md-square me-0" href><i className="fab fa-linkedin-in" /></a>
+                            <a className="btn btn-primary btn-md-square me-3" href='https://www.facebook.com' target="_blank"><i className="fab fa-facebook-f" /></a>
+                            <a className="btn btn-primary btn-md-square me-3" href='https://x.com' target="_blank"><i className="fab fa-twitter" /></a>
+                            <a className="btn btn-primary btn-md-square me-3" href='https://www.instagram.com' target="_blank" ><i className="fab fa-instagram" /></a>
+                            <a className="btn btn-primary btn-md-square me-0" href='https://www.linkedin.com' target="_blank"><i className="fab fa-linkedin-in" /></a>
                         </div>
                     </div>
                 </div>

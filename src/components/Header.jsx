@@ -77,10 +77,10 @@ const Header = () => {
                                         <a href="#" className="text-body me-3"> Register</a>
                                     </div>
                                     <div className="d-flex pe-3">
-                                        <a className="btn p-0 text-primary me-3" href="#"><i className="fab fa-facebook-f" /></a>
-                                        <a className="btn p-0 text-primary me-3" href="#"><i className="fab fa-twitter" /></a>
-                                        <a className="btn p-0 text-primary me-3" href="#"><i className="fab fa-instagram" /></a>
-                                        <a className="btn p-0 text-primary me-0" href="#"><i className="fab fa-linkedin-in" /></a>
+                                        <a className="btn p-0 text-primary me-3" href="https://www.facebook.com"  target="_blank"><i className="fab fa-facebook-f" /></a>
+                                        <a className="btn p-0 text-primary me-3" href="https://x.com"  target="_blank"><i className="fab fa-twitter" /></a>
+                                        <a className="btn p-0 text-primary me-3" href="https://www.instagram.com"  target="_blank"><i className="fab fa-instagram" /></a>
+                                        <a className="btn p-0 text-primary me-0" href="https://www.linkedin.com"  target="_blank"><i className="fab fa-linkedin-in" /></a>
                                     </div>
                                 </div>
                             </div>
